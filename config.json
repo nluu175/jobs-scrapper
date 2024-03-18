@@ -1,0 +1,22 @@
+{
+  "proxies": {},
+  "headers": {},
+  "search_queries": [
+    { "keywords": "software developer", "location": "Canada", "f_WT": "" },
+    { "keywords": "software engineer", "location": "Canada", "f_WT": "" },
+    { "keywords": "web developer", "location": "Canada", "f_WT": "" }
+  ],
+  "desc_words": [],
+  "title_exclude": ["senior", "sr", "intern"],
+  "title_include": ["software developer", "junior", "software engineer"],
+  "company_exclude": ["ClickJobs.io"],
+  "languages": ["en"],
+  "timespan": "r604800",
+  "jobs_tablename": "jobs",
+  "filtered_jobs_tablename": "filtered_jobs",
+  "db_path": "./data/jobs.db",
+  "pages_to_scrape": 20,
+  "rounds": 1,
+  "days_to_scrape": 30,
+  "app_table": "jobs"
+}
